@@ -45,8 +45,10 @@ num = [1,2,3,9,1,4,5,2,3,6,6]
 nombres = []
 
 num.each_with_index do |element, index|
-	num.push element(-1)
-end
+	num.pop
+	nombres.push num[index -1]
+ends
+pp nombres
 
 
 
