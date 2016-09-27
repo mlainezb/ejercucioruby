@@ -35,14 +35,20 @@ num = [1,2,3,9,1,4,5,2,3,6,6]
 ultimo = num[-1]
 pp ultimo
 
-#Conprueba si es distinto de 1
+#Comprueba si es distinto de 1
 if ultimo != 1 
    num.pop
 end	
 
-# #Ejercicio 5
-# num = []
-# num.push(8)
-# pp num
+#Ejercicio 5
+num = [1,2,3,9,1,4,5,2,3,6,6]
+nombres = []
+
+num.each_with_index do |element, index|
+	num.push element(-1)
+end
+
+
+
 
 
