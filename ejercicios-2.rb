@@ -47,7 +47,7 @@ nombres = []
 num.each_with_index do |element, index|
 	num.pop
 	nombres.push num[index -1]
-ends
+end
 pp nombres
 
 
